@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActualizarAnimalActivity">
+
+    <TextView
+        android:id="@+id/actualizarAnimalTitulo"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/chipAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/chipAnimalHint" />
+
+    <EditText
+        android:id="@+id/nombreDuenoAnimal"
+        style="@style/TemaEditTexts"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/nombreDuenoAnimalHint" />
+
+    <EditText
+        android:id="@+id/razaAnimal"
+        style="@style/TemaEditTexts"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/raza_animal_hint" />
+
+
+
+    <Button
+        android:id="@+id/btnActualizarAnimal"
+        android:layout_width="190dp"
+        android:text="@string/bt_actualizar"
+        android:layout_height="50dp" />
+
+</LinearLayout>

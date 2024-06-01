@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blanco">#FFFFFFFF</color>
+    <color name="colorPrimarioApp">#0D47A1</color>
+    <color name="colorSecundarioApp">#0097A7</color>
+    <color name="colorTerciarioApp">#5E35B1</color>
+    <color name="negro">#FF000000</color>
+    <string name="agregarAnimal">Crear Animal</string>
+    <string name="app_name">Prueba 3 Aplicaciones Moviles</string>
+    <string name="btnCreaAnimal">Crear Animal</string>
+    <string name="cabeceraListado">Listado de Pacientes</string>
+    <string name="chipAnimalHint">Número de Chip</string>
+    <string name="nombreAnimalHint">Nombre del Animal</string>
+    <string name="nombreDuenoAnimalHint">Nombre del Dueño</string>
+    <string name="raza_animal_hint">raza animal</string>
+    <style name="Base.Theme.Prueba3AplicacionesMoviles" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="TemaBotones" parent="Base.Theme.Prueba3AplicacionesMoviles">
+        <item name="android:backgroundTint">@color/colorPrimarioApp</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="TemaEditTexts" parent="Base.Theme.Prueba3AplicacionesMoviles">
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="TemaFAB">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="TemaTextViews">
+        <item name="android:textColor">@color/colorPrimarioApp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/colorSecundarioApp</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Prueba3AplicacionesMoviles</item>
+    </style>
+    <style name="Theme.Prueba3AplicacionesMoviles" parent="Base.Theme.Prueba3AplicacionesMoviles"/>
+</resources>

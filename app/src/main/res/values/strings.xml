@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prueba 3 Aplicaciones Moviles</string>
+    <string name="cabeceraListado">Listado de Pacientes</string>
+    <string name="agregarAnimal">Crear Animal</string>
+    <string name="btnCreaAnimal">Crear Animal</string>
+    <string name="nombreDuenoAnimalHint">Nombre del Dueño</string>
+    <string name="nombreAnimalHint">Nombre del Animal</string>
+    <string name="chipAnimalHint">Número de Chip</string>
+    <string name="raza_animal_hint">raza animal</string>
+    <string name="bt_actualizar">Actualizar</string>
+</resources>

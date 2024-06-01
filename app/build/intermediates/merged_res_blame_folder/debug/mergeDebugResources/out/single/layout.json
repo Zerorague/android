@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-mergeDebugResources-31:\\layout\\activity_crear_animal.xml",
+        "source": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-main-34:\\layout\\activity_crear_animal.xml"
+    },
+    {
+        "merged": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-mergeDebugResources-31:\\layout\\activity_actualizar_animal.xml",
+        "source": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-main-34:\\layout\\activity_actualizar_animal.xml"
+    },
+    {
+        "merged": "cl.cfuentes.prueba3aplicacionesmoviles.app-mergeDebugResources-31:/layout/activity_crear_animal.xml",
+        "source": "cl.cfuentes.prueba3aplicacionesmoviles.app-main-34:/layout/activity_crear_animal.xml"
+    },
+    {
+        "merged": "cl.cfuentes.prueba3aplicacionesmoviles.app-mergeDebugResources-31:/layout/animales_item.xml",
+        "source": "cl.cfuentes.prueba3aplicacionesmoviles.app-main-34:/layout/animales_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-mergeDebugResources-31:\\layout\\animales_item.xml",
+        "source": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-main-34:\\layout\\animales_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\julio\\.gradle\\daemon\\8.4\\cl.cfuentes.prueba3aplicacionesmoviles.app-main-34:\\layout\\activity_main.xml"
+    }
+]

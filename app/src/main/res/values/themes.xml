@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Prueba3AplicacionesMoviles" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Prueba3AplicacionesMoviles" parent="Base.Theme.Prueba3AplicacionesMoviles" />
+
+    <style name="TemaTextViews">
+        <item name="android:textColor">@color/colorPrimarioApp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TemaEditTexts" parent="Base.Theme.Prueba3AplicacionesMoviles">
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="TemaBotones" parent="Base.Theme.Prueba3AplicacionesMoviles">
+        <item name="android:backgroundTint">@color/colorPrimarioApp</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/colorSecundarioApp</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Prueba3AplicacionesMoviles</item>
+    </style>
+
+    <style name="TemaFAB">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+</resources>
